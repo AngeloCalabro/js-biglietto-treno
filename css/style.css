@@ -1,0 +1,16 @@
+.debug {
+    border: 1px solid black;
+    min-height: 20px;
+}
+
+.my-container {
+    width: 637.5px;
+    height: 225px;
+    background-color: #d9d9d9;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 100px;
+}
+
+.my-text-end {
+    text-align: end;
+}

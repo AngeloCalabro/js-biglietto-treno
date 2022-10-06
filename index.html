@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- FRAMEWORK -->
+    <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
@@ -18,7 +18,30 @@
 </head>
 
 <body>
-
+    <div class="d-flex justify-content-center">
+        <div class="ticket-train my-container rounded-5">
+            <div class="my-text-end m-4">
+                <span class="bg-black text-white rounded-pill p-2">
+                    <span>Data</span>
+                    <span id="date_add" class="fs-5"></span>
+                </span>
+            </div>
+            <div class=" m-4">
+                <div>
+                    <span>Totale da percorrere:</span>
+                    <span id="km_around" class="debug fw-bold fs-4 p-1">101</span>
+                    <span class="fw-bold">km</span>
+                </div>
+            </div>
+            <div class="debug my-text-end m-4">
+                <div>
+                    <span id="add_discount"></span>
+                    <span id="total_price"></span>
+                </div>
+            </div>
+            <div></div>
+        </div>
+    </div>
 
 
     <!-- SCRIPT -->
